@@ -37,17 +37,17 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 module.exports = {
   plugins: [
     new BundleAnalyzerPlugin({
-			analyzerMode: 'server',
-			analyzerHost: '127.0.0.1',
-			analyzerPort: 8889,
-			reportFilename: 'report.html',
-			defaultSizes: 'parsed',
-			openAnalyzer: true,
-			generateStatsFile: false,
-			statsFilename: 'stats.json',
-			statsOptions: null,
-			logLevel: 'info'
-		})
+      analyzerMode: 'server',
+      analyzerHost: '127.0.0.1',
+      analyzerPort: 8889,
+      reportFilename: 'report.html',
+      defaultSizes: 'parsed',
+      openAnalyzer: true,
+      generateStatsFile: false,
+      statsFilename: 'stats.json',
+      statsOptions: null,
+      logLevel: 'info'
+    })
   ]
 }
 ```
@@ -56,7 +56,7 @@ module.exports = {
 
 ```json
 scripts: {
-	"analyz": "NODE_ENV=production npm_config_report=true npm run build"
+  "analyz": "NODE_ENV=production npm_config_report=true npm run build"
 }
 ```
 
