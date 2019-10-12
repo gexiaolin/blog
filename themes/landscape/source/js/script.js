@@ -1,9 +1,9 @@
 (function($){
-  var cnConfig = {
-    color: '255, 0, 0',
-    count: 88
-  };
-  var cn = new CanvasNest(document.querySelector('#article'), cnConfig);
+  // var cnConfig = {
+  //   color: '255, 0, 0',
+  //   count: 88
+  // };
+  // var cn = new CanvasNest(document.querySelector('#article'), cnConfig);
   // Search
   var $searchWrap = $('#search-form-wrap'),
     isSearchAnim = false,
